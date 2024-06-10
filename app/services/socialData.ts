@@ -4,7 +4,7 @@ import { IconGithub, IconLinkedIn, IconMail } from "./../components/Icons/index"
 const socialData: { socialLink: SocialProps[] } = {
     socialLink: [
         {
-            platform: "E-POSTA",
+            platform: "EMAIL",
             label: "Contact yilmaz.ev@outlook.com",
             icon: IconMail,
             IconProps: { width: "22px", height: "22px" },
