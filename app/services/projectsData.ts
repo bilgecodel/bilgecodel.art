@@ -5,22 +5,22 @@ const projectsData: { projects: ProjectsProps[] } = {
         {
             link: "#",
             title: "Grinok Browser Game",
-            image: "https://i.imgur.com/JsnvFvE.png",
+            image: "/project-images/grinok.png",
         },
         {
             link: "#",
             title: "Habbo X Remake",
-            image: "https://i.imgur.com/aDte9Y4.png",
+            image: "/project-images/habbox.png",
         },
         {
             link: "#",
             title: "Rent a Car Web App",
-            image: "https://i.imgur.com/wH64UX6.png",
+            image: "/project-images/rent-a-car.png",
         },
         {
-            link: "#",
+            link: "https://www.behance.net/gallery/202796595/QR-Menu-App-Design",
             title: "QR Menu Mobile App",
-            image: "https://i.imgur.com/L98qZts.png",
+            image: "/project-images/qr-menu.png",
         },
     ],
 }
