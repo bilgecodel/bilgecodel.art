@@ -6,7 +6,7 @@ import "./styles/globals.css"
 const dm_sans = DM_Sans({ subsets: [ "latin" ] })
 
 export const metadata: Metadata = {
-    title: "Bilge Codel | UI/UX Designer",
+    title: "Bilge Codel | Product Designer",
     description: "A Product Designer focused on creating user-centric, impactful, and innovative products.",
 }
 
