@@ -27,7 +27,7 @@ module.exports = {
                     },
                     {
                         key: "X-Powered-By",
-                        value: "yilmazev.dev"
+                        value: "bilgecodel.art"
                     },
                 ],
             },
@@ -41,5 +41,14 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'i.imgur.com',
+            pathname: '**',
+          },
+        ],
+    },
 }

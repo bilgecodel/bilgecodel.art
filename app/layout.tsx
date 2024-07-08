@@ -1,58 +1,13 @@
 import { Analytics } from "@vercel/analytics/react"
 import { Metadata } from "next"
-import localFont from "next/font/local"
+import { DM_Sans } from "next/font/google"
 import "./styles/globals.css"
 
-const sfPro = localFont({
-    src: [
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-Light.otf",
-            weight: "300",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-LightItalic.otf",
-            weight: "300",
-            style: "italic",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-Regular.otf",
-            weight: "400",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-RegularItalic.otf",
-            weight: "400",
-            style: "italic",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-Medium.otf",
-            weight: "500",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-MediumItalic.otf",
-            weight: "500",
-            style: "italic",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-Semibold.otf",
-            weight: "600",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/sf-pro/SF-Pro-Display-SemiboldItalic.otf",
-            weight: "700",
-            style: "italic",
-        }
-    ],
-    variable: "--font-sf-pro",
-    display: "swap"
-})
+const dm_sans = DM_Sans({ subsets: [ "latin" ] })
 
 export const metadata: Metadata = {
-    title: "Yılmaz Ev | Frontend Developer",
-    description: "Ben Yılmaz Ev, güzel kullanıcı arayüzleri ve etkileyici deneyimler yaratmaya tutkulu bir front-end geliştiriciyim.",
+    title: "Bilge Codel | UI/UX Designer",
+    description: "A Product Designer focused on creating user-centric, impactful, and innovative products.",
 }
 
 export default function RootLayout({
@@ -61,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
     return (
-        <html lang="tr">
-            <body className={sfPro.className}>
+        <html lang="en">
+            <body className={dm_sans.className}>
                 {children}
                 <Analytics />
             </body>

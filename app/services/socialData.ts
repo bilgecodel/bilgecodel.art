@@ -1,28 +1,25 @@
 import { SocialProps } from "../types/socialTypes"
-import { IconGithub, IconLinkedIn, IconMail } from "./../components/Icons/index"
+import { IconBehance, IconInstagram, IconLinkedIn } from "./../components/Icons/index"
 
 const socialData: { socialLink: SocialProps[] } = {
     socialLink: [
         {
-            platform: "EMAIL",
-            label: "Contact yilmaz.ev@outlook.com",
-            icon: IconMail,
+            label: "@bilgecodel follow on Behance",
+            icon: IconBehance,
             IconProps: { width: "22px", height: "22px" },
-            link: "mailto:yilmaz.ev@outlook.com",
+            link: "https://www.behance.net/bilgecodel",
         },
         {
-            platform: "LINKEDIN",
-            label: "@yilmazev connect on LinkedIn",
+            label: "@bilgecodel connect on LinkedIn",
             icon: IconLinkedIn,
             IconProps: { width: "22px", height: "22px" },
-            link: "https://www.linkedin.com/in/yilmazev/",
+            link: "https://www.linkedin.com/in/bilgecodel/",
         },
         {
-            platform: "GITHUB",
-            label: "@yilmazev view on Github",
-            icon: IconGithub,
-            IconProps: { width: "22px", height: "22px" },
-            link: "https://github.com/yilmazev",
+            label: "@bilge.ux on Instagram",
+            icon: IconInstagram,
+            IconProps: { width: "23px", height: "23px" },
+            link: "https://www.instagram.com/bilge.ux/",
         },
     ],
 }
