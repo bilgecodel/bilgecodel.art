@@ -8,12 +8,12 @@ const projectsData: { projects: ProjectsProps[] } = {
             image: "/project-images/grinok.png",
         },
         {
-            link: "#",
+            link: "https://www.behance.net/gallery/203063027/Habbo-X-Remake",
             title: "Habbo X Remake",
             image: "/project-images/habbox.png",
         },
         {
-            link: "#",
+            link: "https://www.behance.net/gallery/203033403/Rent-A-Car-App",
             title: "Rent a Car Web App",
             image: "/project-images/rent-a-car.png",
         },
