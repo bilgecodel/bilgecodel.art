@@ -5,7 +5,7 @@ const projectsData: { projects: ProjectsProps[] } = {
         {
             link: "https://www.behance.net/gallery/203235299/Grinokio-Game-Product-Design",
             title: "Grinok Browser Game",
-            image: "/project-images/grinok.png",
+            image: "/project-images/grinok.png?v=1.0.0",
         },
         {
             link: "https://www.behance.net/gallery/203063027/Habbo-X-Remake",
