@@ -3,7 +3,7 @@ import { ProjectsProps } from "../types/projectTypes"
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
         {
-            link: "#",
+            link: "https://www.behance.net/gallery/203235299/Grinokio-Game-Product-Design",
             title: "Grinok Browser Game",
             image: "/project-images/grinok.png",
         },
