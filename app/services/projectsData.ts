@@ -3,6 +3,11 @@ import { ProjectsProps } from "../types/projectTypes"
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
         {
+            link: "https://www.behance.net/gallery/211930497/Coffee-Shop-Mobile-App",
+            title: "Coffee Shop Mobile App",
+            image: "/project-images/coffee-shop.png",
+        },
+        {
             link: "https://www.behance.net/gallery/203235299/Grinokio-Game-Product-Design",
             title: "Grinok Browser Game",
             image: "/project-images/grinok.png?v=1.0.1",
